@@ -1,0 +1,137 @@
+body{
+  background-repeat: repeat;
+ background-color: aqua;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+.top{
+  position: relative;
+  left: 190px;
+  padding-top: 50px;
+}
+.bottom{
+
+  position: absolute;
+  left:450px;
+
+}
+h1{
+  font-family: cursive;
+  margin: 50px auto 0 auto;
+  padding-bottom: 0;
+  font-size: 60px;
+}
+h3{
+  color: #11999E;
+
+}
+p{
+  display: block;
+  color: #21094e;
+  font-size: 20px;
+  ;
+}
+hr{
+  border-style: dotted none none;
+  border-width:  11px;
+  border-color: blue;
+  width: 6%;
+  margin: 60px auto;
+}
+.profile {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+.middle {
+    width: 47%;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 35px;
+    display: inline-block;
+    height: 61px;
+    font-size: 29px;
+}
+ul{
+  list-style-type: none;
+  display: inline-block;
+}
+li {
+    display: inline-block;
+    padding: 0 30px;
+}
+span{
+  font-style: italic;
+}
+.mountain{
+  margin-top: 50px;
+}
+.profile img{
+  height: 200px;
+}
+.top-container{
+  margin-top: 30px;
+}
+
+.middle-container{
+margin: 30px auto 0 auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  color:#061557;
+  margin-top: 40px;
+  padding-bottom: 5px;
+}
+
+
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skill-row img{
+  height: 175px;
+  border-radius: 15px;
+  line-height: 2;
+}
+.skill-1{
+  float: left;
+  margin-right: 30px;
+}
+.skill-2{
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link{
+  color: black;
+  margin: 15px auto;
+}
+.btn {
+  background: #f7fafc;
+  background-image: -webkit-linear-gradient(top, #f7fafc, #8b24f2);
+  background-image: -moz-linear-gradient(top, #f7fafc, #8b24f2);
+  background-image: -ms-linear-gradient(top, #f7fafc, #8b24f2);
+  background-image: -o-linear-gradient(top, #f7fafc, #8b24f2);
+  background-image: linear-gradient(to bottom, #f7fafc, #8b24f2);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #2056d4;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d3ebea;
+  background-image: -webkit-linear-gradient(top, #d3ebea, #3498db);
+  background-image: -moz-linear-gradient(top, #d3ebea, #3498db);
+  background-image: -ms-linear-gradient(top, #d3ebea, #3498db);
+  background-image: -o-linear-gradient(top, #d3ebea, #3498db);
+  background-image: linear-gradient(to bottom, #d3ebea, #3498db);
+  text-decoration: none;
+}
